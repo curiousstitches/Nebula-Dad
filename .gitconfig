@@ -1,0 +1,18 @@
+[user]
+	email = thegoodguy421@gmail.com
+	name = curiousstitches
+[safe]
+	directory = /storage/emulated/0/Download/nebula-release
+	directory = /storage/emulated/0/Download/nebula-release
+	directory = /data/data/com.termux/files/home
+	directory = /data/data/com.termux/files/home
+	directory = /data/data/com.termux/files/home
+	directory = /data/data/com.termux/files/home/storage/downloads/nebula-release/nebula-release
+	directory = /data/data/com.termux/files/home
+	directory = /data/data/com.termux/files/home
+[credential "https://github.com"]
+	helper = 
+	helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential

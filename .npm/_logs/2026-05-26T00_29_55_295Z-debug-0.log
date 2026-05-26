@@ -1,0 +1,214 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.15.0
+2 info using node@v24.15.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/Infiniteworlds/server/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/home/Infiniteworlds/server/etc/npmrc
+7 verbose title npm install @elevenlabs/elevenlabs-js
+8 verbose argv "install" "@elevenlabs/elevenlabs-js" "--prefix" "server"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-05-26T00_29_55_295Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-05-26T00_29_55_295Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1082392576 maxSize:270598144 maxEntrySize:135299072
+13 silly idealTree buildDeps
+14 silly fetch manifest @elevenlabs/elevenlabs-js@*
+15 silly packumentCache full:https://registry.npmjs.org/@elevenlabs%2felevenlabs-js cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@elevenlabs%2felevenlabs-js 1060ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@elevenlabs%2felevenlabs-js set size:undefined disposed:false
+18 silly placeDep ROOT @elevenlabs/elevenlabs-js@2.49.1 OK for: infiniteworlds-server@1.0.0 want: *
+19 silly fetch manifest node-fetch@^2.7.0
+20 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-miss
+21 silly fetch manifest command-exists@^1.2.9
+22 silly packumentCache full:https://registry.npmjs.org/command-exists cache-miss
+23 http cache https://registry.npmjs.org/node-fetch 56ms (cache hit)
+24 silly packumentCache full:https://registry.npmjs.org/node-fetch set size:896010 disposed:false
+25 http fetch GET 200 https://registry.npmjs.org/command-exists 224ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/command-exists set size:31903 disposed:false
+27 silly fetch manifest encoding@^0.1.0
+28 silly packumentCache full:https://registry.npmjs.org/encoding cache-miss
+29 http cache https://registry.npmjs.org/encoding 18ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/encoding set size:17833 disposed:false
+31 silly placeDep ROOT command-exists@1.2.9 OK for: @elevenlabs/elevenlabs-js@2.49.1 want: ^1.2.9
+32 silly placeDep node_modules/@elevenlabs/elevenlabs-js node-fetch@2.7.0 OK for: @elevenlabs/elevenlabs-js@2.49.1 want: ^2.7.0
+33 silly reify moves {}
+34 silly audit bulk request {
+34 silly audit   '@emnapi/core': [ '1.10.0' ],
+34 silly audit   '@emnapi/runtime': [ '1.10.0' ],
+34 silly audit   '@emnapi/wasi-threads': [ '1.2.1' ],
+34 silly audit   '@napi-rs/wasm-runtime': [ '1.1.4' ],
+34 silly audit   '@oxc-project/types': [ '0.132.0' ],
+34 silly audit   '@rolldown/binding-android-arm64': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-darwin-arm64': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-darwin-x64': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-freebsd-x64': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.0.2' ],
+34 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.0.2' ],
+34 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+34 silly audit   '@tybys/wasm-util': [ '0.10.2' ],
+34 silly audit   '@types/node': [ '25.9.1', '18.19.130' ],
+34 silly audit   '@types/node-fetch': [ '2.6.13' ],
+34 silly audit   'abort-controller': [ '3.0.0' ],
+34 silly audit   accepts: [ '1.3.8' ],
+34 silly audit   agentkeepalive: [ '4.6.0' ],
+34 silly audit   'append-field': [ '1.0.0' ],
+34 silly audit   'array-flatten': [ '1.1.1' ],
+34 silly audit   asynckit: [ '0.4.0' ],
+34 silly audit   'body-parser': [ '1.20.5' ],
+34 silly audit   'buffer-from': [ '1.1.2' ],
+34 silly audit   busboy: [ '1.6.0' ],
+34 silly audit   bytes: [ '3.1.2' ],
+34 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+34 silly audit   'call-bound': [ '1.0.4' ],
+34 silly audit   'combined-stream': [ '1.0.8' ],
+34 silly audit   'concat-stream': [ '1.6.2' ],
+34 silly audit   'content-disposition': [ '0.5.4' ],
+34 silly audit   'content-type': [ '1.0.5' ],
+34 silly audit   cookie: [ '0.7.2' ],
+34 silly audit   'cookie-signature': [ '1.0.7' ],
+34 silly audit   'core-util-is': [ '1.0.3' ],
+34 silly audit   cors: [ '2.8.6' ],
+34 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+34 silly audit   debug: [ '2.6.9' ],
+34 silly audit   'delayed-stream': [ '1.0.0' ],
+34 silly audit   depd: [ '2.0.0' ],
+34 silly audit   destroy: [ '1.2.0' ],
+34 silly audit   'detect-libc': [ '2.1.2' ],
+34 silly audit   dotenv: [ '16.6.1' ],
+34 silly audit   'dunder-proto': [ '1.0.1' ],
+34 silly audit   'ee-first': [ '1.1.1' ],
+34 silly audit   encodeurl: [ '2.0.0' ],
+34 silly audit   'es-define-property': [ '1.0.1' ],
+34 silly audit   'es-errors': [ '1.3.0' ],
+34 silly audit   'es-object-atoms': [ '1.1.2' ],
+34 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+34 silly audit   'escape-html': [ '1.0.3' ],
+34 silly audit   etag: [ '1.8.1' ],
+34 silly audit   'event-target-shim': [ '5.0.1' ],
+34 silly audit   express: [ '4.22.2' ],
+34 silly audit   fdir: [ '6.5.0' ],
+34 silly audit   'fetch-blob': [ '3.2.0' ],
+34 silly audit   finalhandler: [ '1.3.2' ],
+34 silly audit   'form-data': [ '4.0.5' ],
+34 silly audit   'form-data-encoder': [ '1.7.2' ],
+34 silly audit   'formdata-node': [ '4.4.1' ],
+34 silly audit   'web-streams-polyfill': [ '4.0.0-beta.3', '3.3.3' ],
+34 silly audit   'formdata-polyfill': [ '4.0.10' ],
+34 silly audit   forwarded: [ '0.2.0' ],
+34 silly audit   fresh: [ '0.5.2' ],
+34 silly audit   fsevents: [ '2.3.3' ],
+34 silly audit   'function-bind': [ '1.1.2' ],
+34 silly audit   'get-intrinsic': [ '1.3.0' ],
+34 silly audit   'get-proto': [ '1.0.1' ],
+34 silly audit   gopd: [ '1.2.0' ],
+34 silly audit   'has-symbols': [ '1.1.0' ],
+34 silly audit   'has-tostringtag': [ '1.0.2' ],
+34 silly audit   hasown: [ '2.0.3' ],
+34 silly audit   'http-errors': [ '2.0.1' ],
+34 silly audit   'humanize-ms': [ '1.2.1' ],
+34 silly audit   'iconv-lite': [ '0.4.24' ],
+34 silly audit   inherits: [ '2.0.4' ],
+34 silly audit   'ipaddr.js': [ '1.9.1' ],
+34 silly audit   isarray: [ '1.0.0' ],
+34 silly audit   lightningcss: [ '1.32.0' ],
+34 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+34 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+34 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+34 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+34 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+34 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+34 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+34 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+34 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+34 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+34 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+34 silly audit   'math-intrinsics': [ '1.1.0' ],
+34 silly audit   'media-typer': [ '0.3.0' ],
+34 silly audit   'merge-descriptors': [ '1.0.3' ],
+34 silly audit   methods: [ '1.1.2' ],
+34 silly audit   mime: [ '1.6.0' ],
+34 silly audit   'mime-db': [ '1.52.0' ],
+34 silly audit   'mime-types': [ '2.1.35' ],
+34 silly audit   minimist: [ '1.2.8' ],
+34 silly audit   mkdirp: [ '0.5.6' ],
+34 silly audit   ms: [ '2.0.0', '2.1.3' ],
+34 silly audit   multer: [ '1.4.5-lts.2' ],
+34 silly audit   nanoid: [ '3.3.12' ],
+34 silly audit   negotiator: [ '0.6.3' ],
+34 silly audit   'node-domexception': [ '1.0.0' ],
+34 silly audit   'node-fetch': [ '3.3.2', '2.7.0' ],
+34 silly audit   'node-sqlite3-wasm': [ '0.8.57' ],
+34 silly audit   'object-assign': [ '4.1.1' ],
+34 silly audit   'object-inspect': [ '1.13.4' ],
+34 silly audit   'on-finished': [ '2.4.1' ],
+34 silly audit   openai: [ '4.104.0' ],
+34 silly audit   'undici-types': [ '5.26.5', '7.24.6' ],
+34 silly audit   parseurl: [ '1.3.3' ],
+34 silly audit   'path-to-regexp': [ '0.1.13' ],
+34 silly audit   picocolors: [ '1.1.1' ],
+34 silly audit   picomatch: [ '4.0.4' ],
+34 silly audit   postcss: [ '8.5.15' ],
+34 silly audit   'process-nextick-args': [ '2.0.1' ],
+34 silly audit   'proxy-addr': [ '2.0.7' ],
+34 silly audit   qs: [ '6.15.2' ],
+34 silly audit   'range-parser': [ '1.2.1' ],
+34 silly audit   'raw-body': [ '2.5.3' ],
+34 silly audit   'readable-stream': [ '2.3.8' ],
+34 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+34 silly audit   rolldown: [ '1.0.2' ],
+34 silly audit   'safer-buffer': [ '2.1.2' ],
+34 silly audit   send: [ '0.19.2' ],
+34 silly audit   'serve-static': [ '1.16.3' ],
+34 silly audit   setprototypeof: [ '1.2.0' ],
+34 silly audit   'side-channel': [ '1.1.0' ],
+34 silly audit   'side-channel-list': [ '1.0.1' ],
+34 silly audit   'side-channel-map': [ '1.0.1' ],
+34 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+34 silly audit   'source-map-js': [ '1.2.1' ],
+34 silly audit   statuses: [ '2.0.2' ],
+34 silly audit   streamsearch: [ '1.1.0' ],
+34 silly audit   string_decoder: [ '1.1.1' ],
+34 silly audit   tinyglobby: [ '0.2.16' ],
+34 silly audit   toidentifier: [ '1.0.1' ],
+34 silly audit   tr46: [ '0.0.3' ],
+34 silly audit   tslib: [ '2.8.1' ],
+34 silly audit   'type-is': [ '1.6.18' ],
+34 silly audit   typedarray: [ '0.0.6' ],
+34 silly audit   unpipe: [ '1.0.0' ],
+34 silly audit   'util-deprecate': [ '1.0.2' ],
+34 silly audit   'utils-merge': [ '1.0.1' ],
+34 silly audit   uuid: [ '14.0.0' ],
+34 silly audit   vary: [ '1.1.2' ],
+34 silly audit   vite: [ '8.0.14' ],
+34 silly audit   'webidl-conversions': [ '3.0.1' ],
+34 silly audit   'whatwg-url': [ '5.0.0' ],
+34 silly audit   ws: [ '8.21.0' ],
+34 silly audit   xtend: [ '4.0.2' ],
+34 silly audit   '@elevenlabs/elevenlabs-js': [ '2.49.1' ],
+34 silly audit   'command-exists': [ '1.2.9' ]
+34 silly audit }
+35 http cache command-exists@https://registry.npmjs.org/command-exists/-/command-exists-1.2.9.tgz 0ms (cache hit)
+36 http cache @elevenlabs/elevenlabs-js@https://registry.npmjs.org/@elevenlabs/elevenlabs-js/-/elevenlabs-js-2.49.1.tgz 0ms (cache hit)
+37 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 0ms (cache hit)
+38 silly tarball no local data for @elevenlabs/elevenlabs-js@https://registry.npmjs.org/@elevenlabs/elevenlabs-js/-/elevenlabs-js-2.49.1.tgz. Extracting by manifest.
+39 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 688ms
+40 silly audit report {}
+41 http fetch GET 200 https://registry.npmjs.org/@elevenlabs/elevenlabs-js/-/elevenlabs-js-2.49.1.tgz 44187ms (cache miss)
+42 silly ADD node_modules/command-exists
+43 silly ADD node_modules/@elevenlabs/elevenlabs-js
+44 silly ADD node_modules/@elevenlabs/elevenlabs-js/node_modules/node-fetch
+45 verbose cwd /data/data/com.termux/files/home/Infiniteworlds
+46 verbose os Linux 5.15.149-android13-8-00008-gbe074b05e5af-ab12096863
+47 verbose node v24.15.0
+48 verbose npm  v11.15.0
+49 verbose exit 0
+50 info ok
